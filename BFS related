@@ -1,0 +1,32 @@
+BFS is done with a queue. One thing is if you need to know the which of the steps you are in the tree you have to use the quuecount
+ e.g.
+ int count = toProcess.Count; 
+        int next = 1;
+        while(count > 0)
+        {
+            var i = toProcess.Dequeue();
+            if(i-1 >= 0 && res[i-1] == s.Length + 1)
+            {
+                res[i-1] = next;
+                toProcess.Enqueue(i-1);
+            }
+
+            if(i+1 < s.Length && res[i+1] == s.Length + 1)
+            {
+                 res[i+1] = next;
+                toProcess.Enqueue(i+1);
+            }
+            
+            count--;
+            if(count == 0)
+            {
+                count = toProcess.Count;
+                next++;
+            }
+        }
+    A good sample
+    https://leetcode.com/problems/shortest-distance-to-a-character
+    
+    Many problems are solved by BFS
+    Note - be careful with using a HT for visited for BFS, if you can use the same element in the same level multiple times.
+    
