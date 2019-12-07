@@ -1,0 +1,8 @@
+Regular expression matching
+https://leetcode.com/problems/regular-expression-matching/
+https://medium.com/@chetcorcos/introduction-to-parsers-644d1b5d7f3d
+
+Wild card matching splits the paths, depending on how many different child paths need to be probed. It can be quadratic, or exponential.
+You can do memoization.
+If the characters before * required for matching, you have to have a look ahead parser.
+If not e.g. simple wild card matching, https://leetcode.com/problems/wildcard-matching/ you can just look at the characters one at a time.
