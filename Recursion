@@ -1,0 +1,28 @@
+In recursion
+ Understand the base condition and terminating condition.
+ In recursion it is possbile the same path is probed again.
+ There are two important things
+  1) Stopping the probe again
+  2) Memoizing the data.
+ 
+ When you memoize data it is typically after the probes have finished, this could cause issues.
+E.g. bug here the recursion will come back with the same value before the result is set.
+It may be easier to use a visited hashMap separately or init the dp early before calling recursively.
+public static int func(int[][] mat, int t,  HashMap<String, Integer> dp){
+        
+        if(dp.containsKey(t)) return dp.get(t);
+        
+        int min = Integer.MAX_VALUE;
+        
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < m; j++){
+                 t = Munge(i,j);
+                int small = func(mat, t, dp);
+                if(small < min)
+                  min = small;
+            }
+        }
+        
+        dp.put(t, min);
+    
+ }
