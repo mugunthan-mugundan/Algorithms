@@ -26,3 +26,8 @@ public static int func(int[][] mat, int t,  HashMap<String, Integer> dp){
         dp.put(t, min);
     
  }
+ 
+ 
+ Some recursions are from tail, tail recursion where you build from tail. Some can be from the top.
+Need to weigh which one is better. 
+ 
