@@ -1,0 +1,13 @@
+Always use the standard binary search algorithm. The starting points and the end points are inclusive. the left or r always moves by one. R goes left, l goes right. the test is always (l <= r).
+
+There are lot of places a modified binary search yields better results than a linear scan. 
+Interesting binary searches
+This problem requires looking at mid and at the end
+https://leetcode.com/problems/search-in-rotated-sorted-array/
+https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
+In Binary search what heuristic you can use for making the decision to go one side or another is what trims the search space.
+Sometimes binary search is used in places like insert sort. However be careful when inserting, you may have to insert at the end or before start. 
+
+Be careful when you are not exiting from inside the search. In those cases you can potentially use either l or r as the value. 
+
