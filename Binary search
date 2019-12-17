@@ -11,3 +11,4 @@ Sometimes binary search is used in places like insert sort. However be careful w
 
 Be careful when you are not exiting from inside the search. In those cases you can potentially use either l or r as the value. 
 
+There are cases where you can keep updating e.g. minimum value repeatedly during binary search and at the exit you would have the answer.
