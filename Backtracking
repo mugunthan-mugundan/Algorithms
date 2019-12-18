@@ -1,3 +1,6 @@
 https://medium.com/leetcode-patterns/leetcode-pattern-3-backtracking-5d9e5a03dc26
 Be wary of infinite loops.
 Understand building from tail or head.
+
+Divide and concur
+https://leetcode.com/problems/count-of-range-sum/discuss/78006/Summary-of-the-Divide-and-Conquer-based-and-Binary-Indexed-Tree-based-solutions
