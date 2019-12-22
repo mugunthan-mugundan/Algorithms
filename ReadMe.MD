@@ -6,3 +6,9 @@ https://yangshun.github.io/tech-interview-handbook/algorithms/
 http://web.eecs.utk.edu/~azh/blog/challengingprojects.html
 
 https://medium.com/leetcode-patterns/leetcode-pattern-3-backtracking-5d9e5a03dc26
+
+
+https://leetcode.com/discuss/interview-experience/456432/nda-google-l3-bangalore-dec-2019-offer
+
+Has a good list of patterns to look at
+https://sadihassan.github.io/leetlist/educative_pattern.html
