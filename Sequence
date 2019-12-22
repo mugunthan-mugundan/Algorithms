@@ -1,0 +1,27 @@
+Many sequence problems can be solved by the sliding Window technique
+https://leetcode.com/problems/minimum-window-substring/discuss/26808/here-is-a-10-line-template-that-can-solve-most-substring-problems
+
+Also, for some problems you may have to use a sorted dictionary. 
+https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/discuss/457617/easy-solution  
+  foreach(var num in nums)
+        {
+            int val = 0;
+            process.TryGetValue(num, out val);
+            process[num] = val + 1;
+        }
+        var keys = process.Keys.ToArray();
+        foreach(var key in keys)
+        {
+            var val = process[key];
+            if(val == 0) continue;
+            for(int i = key; i < key + k; i++)
+            {
+                int next = 0;
+                process.TryGetValue(i, out next);
+                if(next < val)
+                {
+                    return false;
+                }
+                process[i] = next -val;
+            }
+        }
