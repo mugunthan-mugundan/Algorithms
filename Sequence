@@ -25,3 +25,7 @@ https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/disc
                 process[i] = next -val;
             }
         }
+
+
+Another option is using two maps and comparing them.
+https://leetcode.com/problems/substring-with-concatenation-of-all-words/discuss/13658/Easy-Two-Map-Solution-(C%2B%2BJava)
