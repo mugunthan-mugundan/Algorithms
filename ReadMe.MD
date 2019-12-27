@@ -12,3 +12,6 @@ https://leetcode.com/discuss/interview-experience/456432/nda-google-l3-bangalore
 
 Has a good list of patterns to look at
 https://sadihassan.github.io/leetlist/educative_pattern.html
+
+#14 top patterns
+https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
