@@ -18,3 +18,6 @@ https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357
 
 Top recursion problems
 https://web.stanford.edu/class/cs9/lectures/RecursionProbSetA.pdf
+
+Algo intro
+https://web.stanford.edu/class/cs9/#information
