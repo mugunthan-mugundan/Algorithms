@@ -1,0 +1,6 @@
+https://www.c-sharpcorner.com/UploadFile/78607b/comparing-complex-type-with-equals-iequatable-and-icomp/
+
+Object has a non generic object.Equals. 
+If you derive from IEquatable you can use the generic version of equatable. Also, IComparable is for ordering.
+
+Further gethashcode is used by the dictionary if you want to store your class in a dictionary.
