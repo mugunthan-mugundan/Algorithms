@@ -1,4 +1,7 @@
 https://leetcode.com/discuss/interview-experience/421341/Google-or-L5-or-Nov-2019
+https://leetcode.com/discuss/interview-experience/303008/Google-or-L4L5-or-Mountain-View-Reject
+
+
 Round 3
 Data Structure Design + Coding
 Implement a transactional iterator for a blob of data which is loaded into memory from a 1TB file. The maximum memory for holding the data is in the order of 100 MBs. Let's say you are already given a structure where you have a chunk of data held in memory but you have to design an iterator for that structure which supports following APIs-
