@@ -6,6 +6,9 @@ This problem requires looking at mid and at the end
 https://leetcode.com/problems/search-in-rotated-sorted-array/
 https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
 
+Sometimes l <r may work. But be careful.
+https://medium.com/@hazemu/useful-insights-into-binary-search-problems-8769d388b9c
+
 In Binary search what heuristic you can use for making the decision to go one side or another is what trims the search space.
 Sometimes binary search is used in places like insert sort. However be careful when inserting, you may have to insert at the end or before start. 
 
